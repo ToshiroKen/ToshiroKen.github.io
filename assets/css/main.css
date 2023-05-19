@@ -248,6 +248,21 @@ align-items: center;
   padding-bottom: 8rem; /* 128px */
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -270,6 +285,18 @@ align-items: center;
   margin-bottom: 1.5rem;
 }
 
+.m-6{
+  margin: 1.5rem;
+}
+
+.m-8{
+  margin: 2rem;
+}
+
+.m-12{
+  margin: 3rem;
+}
+
 .flex{
   display: flex;
 }
@@ -281,6 +308,10 @@ align-items: center;
 
 .center{
   text-align: center;
+}
+
+.mx-auto{
+  margin: 0 auto;
 }
 
 /* Hero Section */
@@ -358,23 +389,26 @@ align-items: center;
 
 .about_me-images{
   max-height: 800px;
-  padding: 8rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Gallery Section */
 #gallery{
-  height: 850px;
+  height: 650px;
 }
 
 .gallery-box{
-  height: 850px;
+  height: 650px;
   background-color: lightsalmon;
 }
 
 .gallery {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
   overflow: hidden;
 }
@@ -461,6 +495,15 @@ align-items: center;
   height: 130px;
   background-color: violet;
   border: 2px solid red;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 3rem;
+  padding: 0;
 }
 
 /* Nav Bar */
