@@ -1,0 +1,585 @@
+/* Setup Font Family from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* All CSS Config */
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+/* Body CSS Config */
+body{
+  background-color: #5f5a6d;
+}
+
+.col{
+  width: 100%;
+}
+
+.col-2{
+  width: calc(2/12 * 100%);
+}
+
+.col-3{
+  width: calc(3/12 * 100%);
+}
+
+.col-4{
+  width: calc(4/12 * 100%);
+}
+
+.col-5{
+  width: calc(5/12 * 100%);
+}
+
+.col-6{
+  width: calc(6/12 * 100%);
+}
+
+.col-7{
+  width: calc(7/12 * 100%);
+}
+
+.col-8{
+  width: calc(8/12 * 100%);
+}
+
+.col-9{
+  width: calc(9/12 * 100%);
+}
+
+.col-10{
+  width: calc(10/12 * 100%);
+}
+
+.col-11{
+  width: calc(11/12 * 100%);
+}
+
+.col-12{
+  width: calc(12/12 * 100%);
+}
+
+/* Media Queries (For Page Responsiveness) */
+@media (min-width: 640px) {
+  .col-sm-2{
+    width: calc(2/12 * 100%);
+  }
+    .col-sm-3{
+    width: calc(3/12 * 100%);
+  }
+    .col-sm-4{
+    width: calc(4/12 * 100%);
+  }
+    .col-sm-5{
+    width: calc(5/12 * 100%);
+  }
+    .col-sm-6{
+    width: calc(6/12 * 100%);
+  }
+    .col-sm-7{
+    width: calc(7/12 * 100%);
+  }
+    .col-sm-8{
+    width: calc(8/12 * 100%);
+  }
+    .col-sm-9{
+    width: calc(9/12 * 100%);
+  }
+    .col-sm-10{
+    width: calc(10/12 * 100%);
+  }
+    .col-sm-11{
+    width: calc(11/12 * 100%);
+  }
+    .col-sm-12{
+    width: calc(12/12 * 100%);
+  }    
+}
+
+@media (min-width: 768px) {
+    .col-md-2{
+    width: calc(2/12 * 100%);
+  }
+    .col-md-3{
+    width: calc(3/12 * 100%);
+  }
+    .col-md-4{
+    width: calc(4/12 * 100%);
+  }
+    .col-md-5{
+    width: calc(5/12 * 100%);
+  }
+    .col-md-6{
+    width: calc(6/12 * 100%);
+  }
+    .col-md-7{
+    width: calc(7/12 * 100%);
+  }
+    .col-md-8{
+    width: calc(8/12 * 100%);
+  }
+    .col-md-9{
+    width: calc(9/12 * 100%);
+  }
+    .col-md-10{
+    width: calc(10/12 * 100%);
+  }
+    .col-md-11{
+    width: calc(11/12 * 100%);
+  }
+    .col-md-12{
+    width: calc(12/12 * 100%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-lg-2{
+    width: calc(2/12 * 100%);
+  }
+    .col-lg-3{
+    width: calc(3/12 * 100%);
+  }
+    .col-lg-4{
+    width: calc(4/12 * 100%);
+  }
+    .col-lg-5{
+    width: calc(5/12 * 100%);
+  }
+    .col-lg-6{
+    width: calc(6/12 * 100%);
+  }
+    .col-lg-7{
+    width: calc(7/12 * 100%);
+  }
+    .col-lg-8{
+    width: calc(8/12 * 100%);
+  }
+    .col-lg-9{
+    width: calc(9/12 * 100%);
+  }
+    .col-lg-10{
+    width: calc(10/12 * 100%);
+  }
+    .col-lg-11{
+    width: calc(11/12 * 100%);
+  }
+    .col-lg-12{
+    width: calc(12/12 * 100%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .col-xl-2{
+    width: calc(2/12 * 100%);
+  }
+    .col-xl-3{
+    width: calc(3/12 * 100%);
+  }
+    .col-xl-4{
+    width: calc(4/12 * 100%);
+  }
+    .col-xl-5{
+    width: calc(5/12 * 100%);
+  }
+    .col-xl-6{
+    width: calc(6/12 * 100%);
+  }
+    .col-xl-7{
+    width: calc(7/12 * 100%);
+  }
+    .col-xl-8{
+    width: calc(8/12 * 100%);
+  }
+    .col-xl-9{
+    width: calc(9/12 * 100%);
+  }
+    .col-xl-10{
+    width: calc(10/12 * 100%);
+  }
+    .col-xl-11{
+    width: calc(11/12 * 100%);
+  }
+    .col-xl-12{
+    width: calc(12/12 * 100%);
+  } 
+}
+
+
+/* Default CSS */
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between{
+justify-content: space-between;
+}
+
+.align-center{
+align-items: center;
+}
+
+.box-1 {
+  height: 300px;
+  background-color: lightcoral;
+}
+
+.box-2 {
+  height: 300px;
+  background-color: pink;
+}
+
+.box-3 {
+  height: 150px;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.py-32 {
+  padding-top: 8rem; /* 128px */
+  padding-bottom: 8rem; /* 128px */
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mx-6{
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.center{
+  text-align: center;
+}
+
+/* Hero Section */
+#hero{
+  margin-top: 6rem;
+  height: 850px;
+}
+
+.hero-box{
+  height: 150px;
+  background-color: lightblue;
+}
+
+.carousel {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.carousel-button:hover {
+  opacity: 1;
+}
+
+.carousel-button.previous {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+/* About Me Section */
+.about_me-box{
+  background-color: azure;
+}
+
+#about_me{
+}
+
+.about_me-images{
+  max-height: 800px;
+  padding: 8rem;
+}
+
+/* Gallery Section */
+#gallery{
+  height: 850px;
+}
+
+.gallery-box{
+  height: 850px;
+  background-color: lightsalmon;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gallery-container {
+  overflow-x: auto;
+  text-align: center;
+}
+
+.gallery-item {
+  margin: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+  transition: transform .2s ease;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #bbb;
+}
+
+/* Hobbies Section */
+#hobbies{
+  height: 450px;
+}
+
+.hobbies-box{
+  height: 450px;
+  background-color: aquamarine;
+  border: 2px solid darkred;
+}
+
+/* Contact Section */
+#contact{
+  height: 570px;
+}
+
+.contact-box{
+  height: 570px;
+  background-color: yellowgreen;
+  border: 2px solid blue;
+}
+
+/* Footer Section */
+#footer{
+  height: 130px;
+}
+
+.footer-box{
+  height: 130px;
+  background-color: violet;
+  border: 2px solid red;
+}
+
+/* Nav Bar */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d0ccda;
+  color: #5f5a6d;
+  height: 80px;
+  padding: 1em;
+}
+
+/* Nav Content */
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu > li {
+  margin: 0 1rem;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hamburger Menu (Mobile) */
+#menu-toggle {
+  display: none;
+}
+.menu-button,
+.menu-button::before,
+.menu-button::after { /*Hamburger Animation*/
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+/* Hamburger Animation Toggled On */
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+/* For Mobile/Smaller View */
+@media (max-width: 768px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Default */
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  /* Hamburger Animation Toggled On */
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #ffffff;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: #d0ccda;
+    background-color: #5f5a6d;
+  }
+  .menu > li:not(:last-child) {
+    
+    border-bottom: 1px solid #444;
+  }
+}
