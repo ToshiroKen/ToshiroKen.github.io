@@ -449,13 +449,40 @@ button[type="submit"]:hover {
   padding-bottom: 2rem;
 }
 
+.about-me-background{
+  background-color: #f7eeff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 46vh;
+  font-family: Arial, sans-serif;
+  background-color: #f7eeff;
+  text-align: center;
+  padding: 3rem;
+}
+
+.content-container h2 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.content-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+
 /* Gallery Section */
 #gallery{
-  height: 650px;
+  height: 600px;
 }
 
 .gallery-box{
-  height: 650px;
+  height: 580px;
   background-color: lightsalmon;
 }
 
@@ -527,6 +554,36 @@ button[type="submit"]:hover {
   height: 450px;
   background-color: aquamarine;
   border: 2px solid darkred;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  font-family: Arial, sans-serif;
+  background-color: #a199b9;
+  border: 2px solid #ffffff
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #888888;
 }
 
 /* Contact Section */
